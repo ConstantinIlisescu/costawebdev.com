@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavLinks = () => {
   return (
-    <nav className="space-x-4 hidden md:block w-full text-right">
+    <nav className="space-x-4 hidden w-64 md:block text-right">
       {routes.map((route, index) => (
         <Link
           key={`nav-link-${index}`}

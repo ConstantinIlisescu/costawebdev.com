@@ -1,7 +1,8 @@
 .home-hero-image {
-  background-image: url(/images/home-hero.jpg);
-}
-.hero-overlay {
-  background-color: rgba(var(--overlay-color), 0.39);
+  background-image: url(/public/desktop/hero-desktop.jpg);
 }
 
+.square {
+  border: 6px, solid;
+  border-image: linear-gradient(160deg, #8587af, #7b97aa, #d77167) 1;
+}
