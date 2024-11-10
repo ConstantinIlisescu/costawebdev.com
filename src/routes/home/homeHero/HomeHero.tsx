@@ -7,7 +7,7 @@ const HomeHero = () => {
         <div className="absolute inset-0 overlay"></div>
         <div className="relative z-10 flex self-center justify-center h-[80vh]">
           <h2 className="text-6xl md:text-8xl self-start me-4">Elevate</h2>
-          <div className="square w-10 md:w-12"></div>
+          <div className="hero-middle w-10 md:w-12"></div>
           <div className="self-end ms-4">
             <h2 className="text-6xl md:text-8xl">Your</h2>
             <h2 className="text-6xl md:text-8xl">Online</h2>
